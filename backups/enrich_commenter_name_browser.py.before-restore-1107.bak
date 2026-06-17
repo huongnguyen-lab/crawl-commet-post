@@ -1,0 +1,348 @@
+"""
+Add commenter_name to test.csv by opening each permalink_url in a logged-in browser.
+
+Setup:
+    python3 -m pip install playwright
+    python3 -m playwright install chromium
+
+Login once:
+    python3 enrich_commenter_name_browser.py --login
+
+Run:
+    python3 enrich_commenter_name_browser.py
+
+Notes:
+    - This does not use Graph API "from".
+    - It uses a persistent local browser profile in ./fb-browser-profile.
+    - Facebook's HTML changes often, so extraction is heuristic.
+"""
+
+import argparse
+import asyncio
+import csv
+import re
+import time
+from pathlib import Path
+from urllib.parse import urlparse, parse_qs
+
+INPUT_CSV = Path("test.csv")
+OUTPUT_CSV = Path("test_with_commenter_name.csv")
+PROFILE_DIR = Path("fb-browser-profile")
+BADGE_OR_ACTION_LINES = {
+    "top fan",
+    "author",
+    "tác giả",
+    "thích",
+    "phản hồi",
+    "reply",
+    "like",
+    "share",
+    "chia sẻ",
+    "edited",
+    "đã chỉnh sửa",
+    "see all",
+    "see more",
+    "view more",
+    "view previous comments",
+    "xem thêm",
+    "xem tất cả",
+    "xem thêm bình luận",
+    "xem các bình luận trước",
+    "notifications",
+    "thông báo",
+    "chọn từ khóa - mở chủ đề",
+}
+
+
+def one_line(value):
+    return (value or "").replace("\\n", " ").replace("\r", " ").replace("\n", " ").strip()
+
+
+def words(value):
+    return re.findall(r"[\wÀ-ỹ]+", one_line(value).lower())
+
+
+def comment_id_from_url(url):
+    parsed = urlparse(url)
+    query_id = parse_qs(parsed.query).get("comment_id", [""])[0]
+    return query_id
+
+
+def mobile_url(url):
+    return url.replace("https://www.facebook.com/", "https://m.facebook.com/")
+
+
+def score_article(article_text, message):
+    article_words = set(words(article_text))
+    message_words = words(message)[:30]
+    if not article_words or not message_words:
+        return 0
+    return sum(1 for word in message_words if word in article_words)
+
+
+def clean_candidate_name(value):
+    text = one_line(value)
+    lowered = text.lower()
+    if not text or lowered in BADGE_OR_ACTION_LINES:
+        return ""
+    if "approved a login" in lowered or lowered.startswith("unread"):
+        return ""
+    if "facebook" in lowered or "meta" == lowered:
+        return ""
+    if len(text) > 80:
+        return ""
+    return text
+
+
+def is_valid_name(value):
+    return bool(clean_candidate_name(value))
+
+
+def is_profileish_href(href):
+    lowered = (href or "").lower()
+    if not lowered:
+        return False
+    blocked = [
+        "/notifications",
+        "/login",
+        "/login_alerts",
+        "/help",
+        "/privacy",
+        "/settings",
+        "/policies",
+        "/watch",
+        "/photo",
+        "/stories",
+        "comment_id=",
+        "reply_comment_id=",
+    ]
+    return not any(token in lowered for token in blocked)
+
+
+def guess_name(article_text, message, links=None):
+    for link in links or []:
+        if isinstance(link, dict):
+            link_text = link.get("text", "")
+            href = link.get("href", "")
+            if not is_profileish_href(href):
+                continue
+        else:
+            link_text = link
+        name = clean_candidate_name(link_text)
+        if name:
+            return name
+
+    lines = [line.strip() for line in article_text.splitlines() if line.strip()]
+    msg = one_line(message)
+    msg_first = one_line(message)[:45].strip()
+
+    for line in lines:
+        if msg_first and msg_first in one_line(line):
+            break
+        name = clean_candidate_name(line)
+        if name:
+            return name
+
+    if lines:
+        first = clean_candidate_name(lines[0])
+        if not first:
+            return ""
+        if msg and first.startswith(msg[:20]):
+            return ""
+        return first
+    return ""
+
+
+async def login_only(wait_seconds=300):
+    from playwright.async_api import async_playwright
+
+    async with async_playwright() as p:
+        context = await p.chromium.launch_persistent_context(
+            str(PROFILE_DIR),
+            headless=False,
+            viewport={"width": 1280, "height": 900},
+            locale="vi-VN",
+        )
+        page = await context.new_page()
+        await page.goto("https://www.facebook.com/", wait_until="domcontentloaded")
+        print(f"Login Facebook in the opened browser. This window will stay open for {wait_seconds} seconds...")
+        await page.wait_for_timeout(wait_seconds * 1000)
+        await context.close()
+
+
+async def extract_commenter_name(page, row):
+    url = mobile_url(row.get("permalink_url", ""))
+    message = row.get("message", "")
+    target_comment_id = comment_id_from_url(url)
+
+    await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    await page.wait_for_timeout(2500)
+
+    # Try to give Facebook time to jump to/highlight the permalinked comment.
+    if target_comment_id:
+        await page.evaluate("window.scrollBy(0, 240)")
+        await page.wait_for_timeout(800)
+
+    candidates = []
+    for selector in ["[role='article']", "div", "section"]:
+        try:
+            elements = await page.locator(selector).evaluate_all(
+                """els => els
+                    .map(el => ({
+                        text: (el.innerText || '').trim(),
+                        links: Array.from(el.querySelectorAll('a'))
+                            .map(a => ({
+                                text: (a.innerText || a.getAttribute('aria-label') || '').trim(),
+                                href: a.href || ''
+                            }))
+                            .filter(link => link.text)
+                    }))
+                    .filter(item => item.text && item.text.length < 2000)
+                """
+            )
+        except Exception:
+            elements = []
+
+        for item in elements:
+            text = item.get("text", "")
+            score = score_article(text, message)
+            if score:
+                candidates.append((score, text, item.get("links", [])))
+
+        if candidates:
+            break
+
+    if not candidates:
+        return ""
+
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    return guess_name(candidates[0][1], message, candidates[0][2])
+
+
+def load_rows_with_resume():
+    with INPUT_CSV.open(encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        fieldnames = list(reader.fieldnames or [])
+
+    if "commenter_name" not in fieldnames:
+        fieldnames.append("commenter_name")
+
+    if OUTPUT_CSV.exists():
+        with OUTPUT_CSV.open(encoding="utf-8-sig", newline="") as f:
+            existing_reader = csv.DictReader(f)
+            existing_rows = list(existing_reader)
+        names_by_id = {
+            row.get("id", ""): row.get("commenter_name", "")
+            for row in existing_rows
+            if row.get("id") and is_valid_name(row.get("commenter_name"))
+        }
+        for row in rows:
+            if not row.get("commenter_name") and row.get("id") in names_by_id:
+                row["commenter_name"] = names_by_id[row["id"]]
+
+    return rows, fieldnames
+
+
+def write_output(rows, fieldnames):
+    with OUTPUT_CSV.open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+async def enrich(limit=None, start=0, concurrency=1):
+    from playwright.async_api import async_playwright
+
+    rows, fieldnames = load_rows_with_resume()
+
+    selected_indexes = list(range(start, len(rows)))
+    if limit is not None:
+        selected_indexes = list(range(start, min(start + limit, len(rows))))
+    selected_indexes = [index for index in selected_indexes if not rows[index].get("commenter_name")]
+
+    if not selected_indexes:
+        write_output(rows, fieldnames)
+        print("Nothing to do; all selected rows already have commenter_name.", flush=True)
+        return
+
+    concurrency = max(1, min(concurrency, len(selected_indexes)))
+    queue = asyncio.Queue()
+    for index in selected_indexes:
+        queue.put_nowait(index)
+
+    write_lock = asyncio.Lock()
+    done_count = 0
+    start_time = time.time()
+
+    async with async_playwright() as p:
+        context = await p.chromium.launch_persistent_context(
+            str(PROFILE_DIR),
+            headless=False,
+            viewport={"width": 1280, "height": 900},
+            locale="vi-VN",
+        )
+
+        async def worker(worker_id):
+            nonlocal done_count
+            page = await context.new_page()
+            try:
+                while True:
+                    try:
+                        index = queue.get_nowait()
+                    except asyncio.QueueEmpty:
+                        break
+
+                    row = rows[index]
+                    try:
+                        name = await extract_commenter_name(page, row)
+                    except Exception as exc:
+                        name = ""
+                        print(f"[tab {worker_id}] {index + 1}/{len(rows)} ERROR {row.get('id')}: {exc}", flush=True)
+
+                    async with write_lock:
+                        row["commenter_name"] = name
+                        done_count += 1
+                        filled = sum(1 for item in rows if item.get("commenter_name"))
+                        elapsed = max(time.time() - start_time, 1)
+                        rate = done_count / elapsed * 60
+                        print(
+                            f"[tab {worker_id}] {index + 1}/{len(rows)} "
+                            f"{row.get('id')} -> {name or '[not found]'} "
+                            f"(filled {filled}/{len(rows)}, {rate:.1f}/min)",
+                            flush=True,
+                        )
+                        write_output(rows, fieldnames)
+
+                    queue.task_done()
+                    await page.wait_for_timeout(500)
+            finally:
+                await page.close()
+
+        print(
+            f"Processing {len(selected_indexes)} rows with {concurrency} tabs. "
+            f"Already filled: {sum(1 for row in rows if row.get('commenter_name'))}/{len(rows)}",
+            flush=True,
+        )
+        await asyncio.gather(*(worker(i + 1) for i in range(concurrency)))
+
+        await context.close()
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--login", action="store_true", help="Open browser for manual Facebook login.")
+    parser.add_argument("--login-wait", type=int, default=300, help="Seconds to keep login browser open.")
+    parser.add_argument("--limit", type=int, default=None, help="Only process N rows.")
+    parser.add_argument("--start", type=int, default=0, help="Start at zero-based row index.")
+    parser.add_argument("--concurrency", type=int, default=4, help="Number of browser tabs to run in parallel.")
+    args = parser.parse_args()
+
+    if args.login:
+        asyncio.run(login_only(wait_seconds=args.login_wait))
+    else:
+        asyncio.run(enrich(limit=args.limit, start=args.start, concurrency=args.concurrency))
+
+
+if __name__ == "__main__":
+    main()
