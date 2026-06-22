@@ -1,0 +1,961 @@
+[
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:35.832667",
+    "has_comments": false,
+    "response_size": 214,
+    "response_preview": "{'data': {'xfb_youth_regulatory_config_platform': {'query_configs_by_handler': []}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804065598, 'time_at_flush_ms': 1781804065627}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:36.138722",
+    "has_comments": false,
+    "response_size": 216,
+    "response_preview": "{'data': {'viewer': {'video_settings': {'autoplay_setting_www': 'default_autoplay'}}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804065940, 'time_at_flush_ms': 1781804065966}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:36.633039",
+    "has_comments": false,
+    "response_size": 5958,
+    "response_preview": "{'data': {'node': {'__typename': 'User', 'unified_stories_buckets': {'edges': [{'node': {'__typename': 'DirectMessageThreadBucket', '__isStoryBucket': 'DirectMessageThreadBucket', 'id': '2478488065502024', 'unified_stories': {'nodes': [{'id': 'UzpfSVNDOjE1MTAyMjE1Mzc0MjM3MTg='}], 'is_empty': False}, 'first_story_to_show': {'story_overlays': [{'__typename': 'StoryOverlayResharedPost'}], 'story_card_info': {'story_video_thumbnail': None, 'can_viewer_reply': False}, 'id': 'UzpfSVNDOjE1MTAyMjE1Mzc0M"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:38.016689",
+    "has_comments": false,
+    "response_size": 533,
+    "response_preview": "{'data': {'xfb_ohai_configurations': {'ohai_configs': [{'key_id': 145, 'public_key': '6519fa8a6aff959ef9f5d0dc223ed503e27ec7cda1b8e871611efe4fa19ad707', 'kem_id': 32, 'kdf_id': 1, 'aead_id': 1, 'expiration_date': '1782244800'}, {'key_id': 146, 'public_key': '316a35cf73065642bf69a53254c0879687b88a4b5ff7a5efe4687eae6b27527f', 'kem_id': 32, 'kdf_id': 1, 'aead_id': 1, 'expiration_date': '1782849600'}]}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804067736, 'time_at_flush_ms': 1"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:38.127808",
+    "has_comments": false,
+    "response_size": 1176,
+    "response_preview": "{'data': {'xfb_backup': {'id': '1549471259180805', 'backup_tenancy': 'PRODUCTION', 'is_user_opted_out': False, 'has_otc_eligible_devices': False, 'encryption_management_delegator_id': None, 'virtual_devices': [{'client_generated_id': 'Nhs/WhSBGU0OcWGf4Dc9RQ==', 'device_type': 'ICLOUD_KEYCHAIN', 'device_created_on': 'Apple iPhone 11', 'creation_time': 1774072359, 'migration_status': 'DOES_NOT_REQUIRE_MIGRATION', 'id': '2140164880111437'}, {'client_generated_id': 'Bbb32CTg1ElfJDpgQr+rVA==', 'devic"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:38.226560",
+    "has_comments": false,
+    "response_size": 116362,
+    "response_preview": "{'data': {'viewer': {'bootstrap_keywords': {'edges': [{'node': {'keyword_text': 'thư khuê', 'item_logging_id': '2026-06-18:aiVisx', 'item_logging_info': '{\"source\":\"entity_bootstrap_connected_user_suggestion\",\"kwEntConnected\":true,\"category\":\"user\",\"kwEntId\":100092660490383,\"kwEntIds\":[100092660490383],\"structured_suggestion_type\":3,\"high_confidence_code\":null,\"high_confidence_id\":null,\"disambiguation_codes\":null,\"direct_nav_type\":6,\"direct_nav_id\":100092660490383,\"sts_is_connected\":false,\"sts_e"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:38.234058",
+    "has_comments": false,
+    "response_size": 197,
+    "response_preview": "{'data': {'fx_feta_settings': {'is_user_upgraded_to_feta': False}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804067952, 'time_at_flush_ms': 1781804067976}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:38.234242",
+    "has_comments": false,
+    "response_size": 177,
+    "response_preview": "{'data': {'viewer': {'call_blocked_until': 0}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804067956, 'time_at_flush_ms': 1781804067977}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:34:38.255955",
+    "has_comments": false,
+    "response_size": 226,
+    "response_preview": "{'data': {'user': {'message_capabilities2_str': '252060841644986624', 'id': '100092660490383'}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804068051, 'time_at_flush_ms': 1781804068082}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:51.917732",
+    "has_comments": false,
+    "response_size": 248,
+    "response_preview": "{'data': {'screen_time_sync': {'aggs': {'__typename': 'ScreenTimeSyncMutationOutput', 'today_s': 687, 'l24h_s': -1}}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804135703, 'time_at_flush_ms': 1781804135811}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:55.550141",
+    "has_comments": false,
+    "response_size": 214,
+    "response_preview": "{'data': {'xfb_youth_regulatory_config_platform': {'query_configs_by_handler': []}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804205338, 'time_at_flush_ms': 1781804205362}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:55.644447",
+    "has_comments": false,
+    "response_size": 216,
+    "response_preview": "{'data': {'viewer': {'video_settings': {'autoplay_setting_www': 'default_autoplay'}}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804205403, 'time_at_flush_ms': 1781804205447}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:59.548083",
+    "has_comments": false,
+    "response_size": 533,
+    "response_preview": "{'data': {'xfb_ohai_configurations': {'ohai_configs': [{'key_id': 145, 'public_key': '6519fa8a6aff959ef9f5d0dc223ed503e27ec7cda1b8e871611efe4fa19ad707', 'kem_id': 32, 'kdf_id': 1, 'aead_id': 1, 'expiration_date': '1782244800'}, {'key_id': 146, 'public_key': '316a35cf73065642bf69a53254c0879687b88a4b5ff7a5efe4687eae6b27527f', 'kem_id': 32, 'kdf_id': 1, 'aead_id': 1, 'expiration_date': '1782849600'}]}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804209337, 'time_at_flush_ms': 1"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:59.580397",
+    "has_comments": false,
+    "response_size": 116362,
+    "response_preview": "{'data': {'viewer': {'bootstrap_keywords': {'edges': [{'node': {'keyword_text': 'thư khuê', 'item_logging_id': '2026-06-18:0JwVXw', 'item_logging_info': '{\"source\":\"entity_bootstrap_connected_user_suggestion\",\"kwEntConnected\":true,\"category\":\"user\",\"kwEntId\":100092660490383,\"kwEntIds\":[100092660490383],\"structured_suggestion_type\":3,\"high_confidence_code\":null,\"high_confidence_id\":null,\"disambiguation_codes\":null,\"direct_nav_type\":6,\"direct_nav_id\":100092660490383,\"sts_is_connected\":false,\"sts_e"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:59.585378",
+    "has_comments": false,
+    "response_size": 1176,
+    "response_preview": "{'data': {'xfb_backup': {'id': '1549471259180805', 'backup_tenancy': 'PRODUCTION', 'is_user_opted_out': False, 'has_otc_eligible_devices': False, 'encryption_management_delegator_id': None, 'virtual_devices': [{'client_generated_id': 'Nhs/WhSBGU0OcWGf4Dc9RQ==', 'device_type': 'ICLOUD_KEYCHAIN', 'device_created_on': 'Apple iPhone 11', 'creation_time': 1774072359, 'migration_status': 'DOES_NOT_REQUIRE_MIGRATION', 'id': '2140164880111437'}, {'client_generated_id': 'Bbb32CTg1ElfJDpgQr+rVA==', 'devic"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:59.598982",
+    "has_comments": false,
+    "response_size": 197,
+    "response_preview": "{'data': {'fx_feta_settings': {'is_user_upgraded_to_feta': False}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804209407, 'time_at_flush_ms': 1781804209431}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:59.599422",
+    "has_comments": false,
+    "response_size": 177,
+    "response_preview": "{'data': {'viewer': {'call_blocked_until': 0}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804209412, 'time_at_flush_ms': 1781804209433}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:36:59.754370",
+    "has_comments": false,
+    "response_size": 226,
+    "response_preview": "{'data': {'user': {'message_capabilities2_str': '252060841644986624', 'id': '100092660490383'}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804209549, 'time_at_flush_ms': 1781804209576}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:03.284264",
+    "has_comments": false,
+    "response_size": 69363,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardProfilePlusUserRenderer', 'user': {'id': '100064870680892', 'name': 'Bảo hiểm Nhân thọ Prudential Việt Nam', 'is_visibly_memorialized': False, 'is_verified': True, 'username_for_profile': None, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/Prudential.pva', '__typename': 'User', 'story_bucket': {'nodes': [{'sho"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:26.869097",
+    "has_comments": true,
+    "response_size": 64428,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE0NzE4NDc5MjA4Njk2NTg=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Thao Ngan', 'id': '100026476600452', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/645634191_1996668587892342_8826884402599492181_n.jpg?s"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:27.665918",
+    "has_comments": false,
+    "response_size": 72582,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100026476600452', 'name': 'Thao Ngan', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100026476600452', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:28.144682",
+    "has_comments": false,
+    "response_size": 67682,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100020703532075', 'name': 'Nguyễn Nguyễn', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/tuyet.thien.3762', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:30.096663",
+    "has_comments": true,
+    "response_size": 333202,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4Nw==', 'should_always_show_composer_on_top': False, 'comment_rendering_instance_for_feed_location': {'selected_intent': {'intent_token': 'RANKED_UNFILTERED_CHRONOLOGICAL_REPLIES_INTENT_V1'}, 'comments': {'created_comment_insertion_position': 'TOP', 'filtering_footer_string': '', 'count': 149, 'page_size': 10, 'total_count': 96478, 'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node':"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:44.904855",
+    "has_comments": false,
+    "response_size": 27549,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100003211318821', 'name': 'Thanh Huyền Hoàng', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/thanhhuyen.hoang.39', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_bad"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:44.973258",
+    "has_comments": false,
+    "response_size": 13246,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100034255879413', 'name': 'Hoàng NgọcÝ', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/jasminehg.1604', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/jasm"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:47.002661",
+    "has_comments": true,
+    "response_size": 63229,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE0NzE4NDc5MjA4Njk2NTg=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Thao Ngan', 'id': '100026476600452', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/645634191_1996668587892342_8826884402599492181_n.jpg?s"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:50.207420",
+    "has_comments": true,
+    "response_size": 175644,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE1MDU1NTU2MTEzMDI1NjA=', 'legacy_fbid': '1505555611302560', 'depth': 2, 'body': {'text': 'Thao Ngan #Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'User', '__isNode': 'User', 'id': '100026476600452'}, 'entity_is_weak_reference': False, 'length': 9, 'offset': 0}, {'__type"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:54.052129",
+    "has_comments": true,
+    "response_size": 166658,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE2NDYzMzEyODY0MjExNzI=', 'legacy_fbid': '1646331286421172', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:37:54.656045",
+    "has_comments": false,
+    "response_size": 11830,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61586663915655', 'name': 'Quỳnh Nhi', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61586663915655', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.faceb"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:00.685443",
+    "has_comments": true,
+    "response_size": 166676,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE5ODI0NzA3NjY0NzQwOTY=', 'legacy_fbid': '1982470766474096', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:04.117621",
+    "has_comments": true,
+    "response_size": 175600,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk3ODY4NTExNTA0MDM0MQ==', 'legacy_fbid': '978685115040341', 'depth': 2, 'body': {'text': 'Thao Ngan #Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'User', '__isNode': 'User', 'id': '100026476600452'}, 'entity_is_weak_reference': False, 'length': 9, 'offset': 0}, {'__typen"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:15.312390",
+    "has_comments": true,
+    "response_size": 166676,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE3MDIyODQ2MDExMDkxOTA=', 'legacy_fbid': '1702284601109190', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:19.522396",
+    "has_comments": true,
+    "response_size": 166744,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzQzNDQzMzY3NTI1MDIzNTc=', 'legacy_fbid': '4344336752502357', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:22.861537",
+    "has_comments": true,
+    "response_size": 166667,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzMjM5NzkwMTkxMTUzMTk=', 'legacy_fbid': '1323979019115319', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:28.217142",
+    "has_comments": true,
+    "response_size": 324681,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzIyMTI0ODE5MTYxNjY0NTM=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18yMjEyNDgxOTE2MTY2NDUz', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0Mjk2OgF_XMP4YvCBerEsIP6x_9dMExWSKXyRivc53MtnjWGnsBHKS14du6WaCj--7A5za1tnxJ3K7C7VjY87V8A2KUFVPv9CJj5JLSnAl-wsJydt"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:32.353363",
+    "has_comments": false,
+    "response_size": 14550,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100021057553700', 'name': 'Hoàng Phi Nguyễn', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/hoang.phi.nguyen.15945', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.face"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:33.622033",
+    "has_comments": true,
+    "response_size": 319734,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzMjkxNDY5MzE4ODAyODg=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xMzI5MTQ2OTMxODgwMjg4', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0MzAyOgF_Izx2lnsgpJco8CmMuCWcNpSD-ysx9zEnmpe4zOefozBE_cFlsngejkGtX1DU3IhV6Hn01EZ8Ys1RcDKiHg-kqkJRoLycvucWp_wZo4hw"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:41.840111",
+    "has_comments": true,
+    "response_size": 284519,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE0MzA5MTM4MDIxMjU4ODE=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'An Nhiên', 'id': '61561859173638', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/456239807_122109946142395305_780414735881644881_n.jpg?st"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:43.049762",
+    "has_comments": false,
+    "response_size": 13749,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61587118988799', 'name': 'Hải Hà', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61587118988799', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:43.586723",
+    "has_comments": false,
+    "response_size": 13756,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61572030248716', 'name': 'Ngọc Châu', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61572030248716', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.faceb"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:44.674635",
+    "has_comments": false,
+    "response_size": 11833,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61579785846098', 'name': 'Cẩm Linh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61579785846098', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebo"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:46.381531",
+    "has_comments": false,
+    "response_size": 13344,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61556726462672', 'name': 'Minh Châu', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/truong.vu.ha.linh', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/truo"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:47.337073",
+    "has_comments": true,
+    "response_size": 92651,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzQzMTg2NjIzNjgzOTM3NzE=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Hoàng NgọcÝ', 'id': '100034255879413', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/484522205_1355435242274992_2163720573341319767_n.jpg"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:50.865268",
+    "has_comments": false,
+    "response_size": 14619,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61553594087670', 'name': 'Do Hường', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/do.huong.618906', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/do.huon"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:51.073539",
+    "has_comments": false,
+    "response_size": 14446,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100011460931067', 'name': 'Thủy Mai', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/thuy.mai.369171', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/thuy.m"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:52.253778",
+    "has_comments": true,
+    "response_size": 92357,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE1ODc1MTE0MjkzMzgzMzU=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Trâm Trần', 'id': '100030650384408', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.6435-1/89920250_245786353119709_7074729018267795456_n.jpg?stp=c"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:53.171998",
+    "has_comments": false,
+    "response_size": 14871,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100010155760572', 'name': 'Thanh Huyền Thành', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/thanhbuiaha', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': Fal"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:53.388469",
+    "has_comments": false,
+    "response_size": 15403,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100051072765836', 'name': 'Gia Linh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/gia.linh.889896', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/gia.li"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:54.212966",
+    "has_comments": true,
+    "response_size": 164968,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk1NzcwNTI4NzI1OTQ4OA==', 'legacy_fbid': '957705287259488', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachmen"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:57.075776",
+    "has_comments": false,
+    "response_size": 14560,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61550212341461', 'name': 'Bien Nguyen', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/bien.nguyen.713067', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/b"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:57.631075",
+    "has_comments": true,
+    "response_size": 164886,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzIyMzM1MTYyODM4NTE3MzM=', 'legacy_fbid': '2233516283851733', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:38:58.100805",
+    "has_comments": false,
+    "response_size": 17338,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61553868239707', 'name': 'Nguyễn Thị Kim Lượm', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/nguyen.huong.120469', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_ba"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:00.607595",
+    "has_comments": true,
+    "response_size": 164895,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE0MTg4MDg0OTAwNzUwMDQ=', 'legacy_fbid': '1418808490075004', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:03.666581",
+    "has_comments": true,
+    "response_size": 164920,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzODIzMjU4MDM3NTEzOTk=', 'legacy_fbid': '1382325803751399', 'depth': 2, 'body': {'text': '#Prudential', 'ranges': [{'__typename': 'EntityAtRange', 'entity': {'__typename': 'Hashtag', '__isNode': 'Hashtag', 'id': '148659481966409'}, 'entity_is_weak_reference': False, 'length': 11, 'offset': 0}]}, 'attachme"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:04.896288",
+    "has_comments": false,
+    "response_size": 14359,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100055477172750', 'name': 'Minh Thư', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/minh.thu.51764', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/minh.th"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:05.932830",
+    "has_comments": false,
+    "response_size": 13923,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100077858254279', 'name': 'Hoài Thương', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/hoai.thuong.163157', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': Fa"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:07.962889",
+    "has_comments": true,
+    "response_size": 269080,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk0NjcwODU0ODQxNDU4Ng==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Do Hoang Nam', 'id': '61573223913454', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/660137898_18091207450958027_8052717455991317690_n.j"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:09.397089",
+    "has_comments": false,
+    "response_size": 10562,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61573223913454', 'name': 'Do Hoang Nam', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61573223913454', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fa"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:11.878595",
+    "has_comments": true,
+    "response_size": 269199,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk2NzQwODY2OTQ1NzgwMA==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Le Quang Huy', 'id': '61570819674356', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/671247260_18082877324098465_6911991065814167237_n.j"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:12.497831",
+    "has_comments": false,
+    "response_size": 8740,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61570819674356', 'name': 'Le Quang Huy', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61570819674356', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fa"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:13.919216",
+    "has_comments": false,
+    "response_size": 10577,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61572053440092', 'name': 'Pham Thanh Ngan', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61572053440092', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:14.611025",
+    "has_comments": false,
+    "response_size": 10581,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61574324024476', 'name': 'Vu Thi Thu Thao', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61574324024476', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:14.897851",
+    "has_comments": false,
+    "response_size": 12671,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61554441362337', 'name': 'Nguyễn Đình Phong', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/nguyen.inh.phong.131945', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fac"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:16.561504",
+    "has_comments": false,
+    "response_size": 15138,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61550197005853', 'name': 'Hoàng Nhi Nè', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/hoang.nhi.ne.2024', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/h"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:17.112130",
+    "has_comments": true,
+    "response_size": 270230,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE2OTQyNjM2NDE2MTk2ODc=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Vĩ Ngân', 'id': '61581254927243', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/558962450_122105139789041830_8064126120454255817_n.jpg?st"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:20.703827",
+    "has_comments": false,
+    "response_size": 13897,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61589963824863', 'name': 'Duyệt Du Chỉ', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61589963824863', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:21.036423",
+    "has_comments": true,
+    "response_size": 266846,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzIxMjMxNzgzNzU3NDM0ODk=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Nam Bui', 'id': '100003555151462', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.6435-1/128543352_3310415335753606_78680772279099803_n.jpg?stp=cp0"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:21.808620",
+    "has_comments": false,
+    "response_size": 13727,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100003555151462', 'name': 'Nam Bui', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/nam.bui.9237', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/nam.bui.92"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:23.800098",
+    "has_comments": true,
+    "response_size": 63252,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzg5NTAxNjE5MzYyMDM5Mg==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Duyệt Du Chỉ', 'id': '61589963824863', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/714561495_122101881111332127_3063172137357597502_n.j"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:25.234507",
+    "has_comments": true,
+    "response_size": 319178,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzI4NzAxNzA0ODMzMzY3MjE=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18yODcwMTcwNDgzMzM2NzIx', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0MzU0OgF_gFWDLmDVYeY4zwaTKCc9IMlAmOQXQNlc0q1NU_tDXTqnAJFO5yORcYqySMJzY81ZCndBhNU9vsxsXkIwgCZE1TP0Rt8YcZQf9RCa7owd"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:26.185582",
+    "has_comments": false,
+    "response_size": 10121,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100004227522635', 'name': 'Hoàng Thưởng', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/hoang.thuong.5015', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:26.389005",
+    "has_comments": false,
+    "response_size": 13564,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100004550320012', 'name': 'Quyên Bùi Prudential', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/quyenthuong.hoang', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_ba"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:27.335772",
+    "has_comments": true,
+    "response_size": 312019,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzMjM4NjM0NDI0ODU0NTc=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Thuy Nguyet Dang', 'id': '100027078759465', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.6435-1/50670688_233248610921096_9000528968666841088_n.jp"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:28.664950",
+    "has_comments": false,
+    "response_size": 14661,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100044390108042', 'name': 'Hoang Thi Ha Phuong', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/hiraeth.hthp', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.co"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:29.494905",
+    "has_comments": false,
+    "response_size": 16438,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100032465419066', 'name': 'Pham Ngọc Thanh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/pham.ngoc.thanh.573293', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_ba"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:30.236931",
+    "has_comments": true,
+    "response_size": 326050,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzMTIyNTY2NjA5Nzk1NDI=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xMzEyMjU2NjYwOTc5NTQy', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0MzU5OgF_K50VZhE0xbTmN0-6WKDHlKCKtzSdp7we8mjUUSDy9WHtnfN5CVgU3vO7PxFuFtHoZViysPFaCmu-tO9Qr57kIJooE1YIvHUd-nXdwpGG"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:32.775544",
+    "has_comments": false,
+    "response_size": 11770,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100083310551935', 'name': 'Chan Myae', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100083310551935', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fac"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:33.127168",
+    "has_comments": true,
+    "response_size": 320144,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk3NjYxMDQ4MjA4MzIyMw==', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N185NzY2MTA0ODIwODMyMjM=', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0MzYxOgF_7awfjttTIG5cMzYQQ_4IwfTb1S_NYirqPq4mgyHcZmGU30w6sQpEgK9wi0UFm_blwNWidd5YvO1p8KvubYhDYFPTANs9SczleVQaAgX_"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:34.142322",
+    "has_comments": false,
+    "response_size": 15292,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100001603125725', 'name': 'Phan Thị Xuân Trang', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/muknx1412', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': Fal"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:36.037748",
+    "has_comments": false,
+    "response_size": 11134,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100084241344213', 'name': 'Ngoc Yenn', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/ngoc.yenn.8130', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': False, '"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:38.730382",
+    "has_comments": true,
+    "response_size": 269074,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzkyNzQ2NDg2MDM0NTY0Mg==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'kimchi61479', 'id': '61572018754779', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t40.76095-1/466906682_1602283360640758_6531037832392443510_n.png?"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:41.544087",
+    "has_comments": false,
+    "response_size": 12074,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100026583341709', 'name': 'Kiều Kiều', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/kieu.kieu.106632', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/kieu"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:46.616673",
+    "has_comments": true,
+    "response_size": 269020,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzgyMTIzOTQzNDIwMzI4NQ==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Tuan Kiet', 'id': '61573302915620', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/671191432_18090719896976067_1452298245602039606_n.jpg?"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:56.943857",
+    "has_comments": false,
+    "response_size": 13877,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61574442006843', 'name': 'Hoa Nở Không Màu', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61574442006843', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://ww"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:57.186103",
+    "has_comments": false,
+    "response_size": 14695,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100009329796101', 'name': 'Nguyen Vu Nhat Nam', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/nguyen.vu.nhat.nam.2024', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_frien"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:39:58.757414",
+    "has_comments": true,
+    "response_size": 268818,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzg1MTI3ODQzODA0NjM1Ng==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Tran Thi My Linh', 'id': '61570799753654', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/669893967_18090081400965199_662830478054239162_"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:00.018951",
+    "has_comments": false,
+    "response_size": 8754,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61570799753654', 'name': 'Tran Thi My Linh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61570799753654', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://ww"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:08.135988",
+    "has_comments": true,
+    "response_size": 65266,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk0MTE2NjU1ODkxMjYyNw==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Vân Hiền', 'id': '100038556894261', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/474727017_1277508653544352_1868909238045931892_n.jpg?st"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:09.736145",
+    "has_comments": true,
+    "response_size": 322243,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzMzMzc2MDM0OTk3NzQ2MTg=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18zMzM3NjAzNDk5Nzc0NjE4', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0Mzk4OgF_hscFL6IIxWhjXXbhqWgFG3wXIaZb6ZhD-En9I-puoOqmtaXmBbhJlagKCRGBXvIs9VwlzuROv2L9hKveR_hcHpH_DssAFtEmVSxgvj2p"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:13.835901",
+    "has_comments": true,
+    "response_size": 301476,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE5NzYyMjIwNzMwOTkxODg=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xOTc2MjIyMDczMDk5MTg4', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDAyOgF_tm1GjTDvXDnh-gq0ssnYjkGBspS7ReKBumB0Xp8CNeKSwiXeRL2hZrkGXiRo8E8F_HgrnUvHCPpoaDZwvvSkAajOozqVac0VF4wxyqPw"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:16.170755",
+    "has_comments": true,
+    "response_size": 303245,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE1Mjk1OTc3Mzg4Njk3NDg=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xNTI5NTk3NzM4ODY5NzQ4', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDA0OgF_V2RjpQPkwyWWR2asBxDcgNbysIM5JuO5bFToSYYysVRybhmpFRPyUYPALSFV8Uv-S9B_kWP_GLbf1k6pHSwScip3Dbybe2BWK_Eqfr0y"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:16.408570",
+    "has_comments": false,
+    "response_size": 13739,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100031457086274', 'name': 'Dương Hoàng Yến', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100031457086274', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://w"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:17.136968",
+    "has_comments": true,
+    "response_size": 301393,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzIwOTgxOTg1NTQ0MzIxODg=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Hoàng Bình', 'id': '100031135803329', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.6435-1/82618249_202072487507277_9069907289091080192_n.jpg?stp="
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:17.316843",
+    "has_comments": true,
+    "response_size": 286898,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEwNDg1NTE3MTc0OTc3MTU=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xMDQ4NTUxNzE3NDk3NzE1', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDA2OgF_8q6u6XI51ZEDynYBtd0Fvufuuz8tRzExl1ymypjDuO1lc7794alT2apwNFq5N6d2QbwpUJcqa_-9tVSE2rLffloai8UmD1ysM1YkzxLt"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:18.208917",
+    "has_comments": false,
+    "response_size": 12206,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100031135803329', 'name': 'Hoàng Bình', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/hoang.binh.141600', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/ho"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:18.862628",
+    "has_comments": false,
+    "response_size": 13827,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61572747553084', 'name': 'Ngô Ngọc Gia Hân', 'username_for_profile': 'ngo.ngoc.gia.han.2025', 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/ngo.ngoc.gia.han.2025', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': "
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:21.140447",
+    "has_comments": true,
+    "response_size": 267650,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE1NTgxMzM2NjI1NDc0Mjk=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'My My', 'id': '100038207928861', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.6435-1/107846572_275648217052107_5672465943593565106_n.jpg?stp=c0.1"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:27.959151",
+    "has_comments": false,
+    "response_size": 14552,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61572522754473', 'name': 'Tuan Tuấn Anh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/anh.tuan.425592', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.facebook.com/an"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:28.661545",
+    "has_comments": false,
+    "response_size": 13865,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100017443501662', 'name': 'Ba Bé Gấu', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/man.chau.sa.484141', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': Fals"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:29.806794",
+    "has_comments": true,
+    "response_size": 269330,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzg2NDg5Njc3NjY3ODQ3Mw==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Trăng Vầng', 'id': '61578686021450', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/524992228_122104719380956200_6779900619499724150_n.jpg"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:31.809618",
+    "has_comments": false,
+    "response_size": 15111,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100018002196809', 'name': 'Cô Hai Lê', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/co.hai.le.2025', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': False, '"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:33.721149",
+    "has_comments": true,
+    "response_size": 269038,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE5Nzk0MDA4MTkzNTE4ODc=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Giang Giang', 'id': '61574975251719', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?st"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:33.734924",
+    "has_comments": false,
+    "response_size": 15120,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100037286655354', 'name': 'Tâm Không An', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100037286655354', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_frie"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:37.027335",
+    "has_comments": true,
+    "response_size": 283897,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE0ODkzMjQyODYwMDMyMjI=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Bùi Huy', 'id': '100077790183626', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/580479434_847259781210354_1738764902470059293_n.jpg?stp="
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:39.975903",
+    "has_comments": false,
+    "response_size": 10718,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61575472883450', 'name': 'Max Anh Hùng', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61575472883450', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fa"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:41.232364",
+    "has_comments": true,
+    "response_size": 318501,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzgzNDY0MTE5OTQzMDEzOQ==', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N184MzQ2NDExOTk0MzAxMzk=', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDI5OgF_0xY0Y_PQAMGqc3taR4KVY3Ibg6xpq44G9BCNz4QwsTS-uFlO7_APdZlNngWZLE8P-SXkqg8bYUolxBHRK7_aSmXhwx0fTAn6n5RZgGAm"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:43.044834",
+    "has_comments": false,
+    "response_size": 14648,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100077790183626', 'name': 'Bùi Huy', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/bui.huy.806099', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': False, 'id"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:44.201787",
+    "has_comments": true,
+    "response_size": 97373,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzgyMzQ0NjUzNzMwNDYwNA==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Bùi Huy', 'id': '100077790183626', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/580479434_847259781210354_1738764902470059293_n.jpg?stp="
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:45.154209",
+    "has_comments": false,
+    "response_size": 10412,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61580705579207', 'name': 'Hông Hông', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61580705579207', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.faceb"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:45.956521",
+    "has_comments": false,
+    "response_size": 248,
+    "response_preview": "{'data': {'screen_time_sync': {'aggs': {'__typename': 'ScreenTimeSyncMutationOutput', 'today_s': 987, 'l24h_s': -1}}}, 'extensions': {'server_metadata': {'request_start_time_ms': 1781804435672, 'time_at_flush_ms': 1781804435778}, 'is_final': True}}"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:46.616090",
+    "has_comments": false,
+    "response_size": 11812,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100012404376731', 'name': 'Nam Hoaiy Bao', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100012404376731', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_fri"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:46.747975",
+    "has_comments": true,
+    "response_size": 270806,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE2OTg5ODYxNjQ1NzI3NzI=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'BaoBao Huynh', 'id': '100018400573802', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.6435-1/92508484_569115897045091_1180185656354144256_n.jpg?st"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:47.997883",
+    "has_comments": false,
+    "response_size": 11717,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100018400573802', 'name': 'BaoBao Huynh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100018400573802', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www."
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:52.074299",
+    "has_comments": true,
+    "response_size": 268890,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzg2MTIzNzUzMzIxMzE1MA==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Bui Minh Duc', 'id': '61574365397570', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/671090325_18077706347207582_7255624083217326430_n.j"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:53.655629",
+    "has_comments": false,
+    "response_size": 10562,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61574365397570', 'name': 'Bui Minh Duc', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61574365397570', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fa"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:54.369982",
+    "has_comments": false,
+    "response_size": 12305,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61565180755984', 'name': 'Trương Thị Hồng Nhi', 'username_for_profile': 'TTHN.Rose', 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/TTHN.Rose', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:57.670512",
+    "has_comments": true,
+    "response_size": 269241,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzc3ODE3OTIzODcxNDg2OA==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Hoang Minh Duc', 'id': '61570807732245', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/670295316_18074875364295544_4049933406122000950_n"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:58.404314",
+    "has_comments": false,
+    "response_size": 8744,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61570807732245', 'name': 'Hoang Minh Duc', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61570807732245', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www."
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:40:59.234428",
+    "has_comments": false,
+    "response_size": 10572,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61560731971387', 'name': 'Mai Phuong Mai', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61560731971387', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www."
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:01.730379",
+    "has_comments": true,
+    "response_size": 269066,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk3OTIwNjIzNDc1MDIwOA==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Do Tuan Phong', 'id': '61573348928207', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t51.82787-15/669857478_18076072049253449_2627591964791397638_n."
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:03.453985",
+    "has_comments": false,
+    "response_size": 8744,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61573348928207', 'name': 'Do Tuan Phong', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61573348928207', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.f"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:07.280477",
+    "has_comments": true,
+    "response_size": 313553,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzNjUwODg5ODg4MjU4NDM=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xMzY1MDg4OTg4ODI1ODQz', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDU2OgF_dUA4kW46omdjPFaGzfs9ojeu5FqH7OczQ599cmCKZ7h4FfaYjDnJnY7rt_uZW8x-Ol-tSRitvNUDP94M-Ju2TodTiWgHa4V3vYyroNDB"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:10.080940",
+    "has_comments": true,
+    "response_size": 304405,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzEzMjMwODk1MDMxMDQzMDU=', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N18xMzIzMDg5NTAzMTA0MzA1', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDU5OgF_gapDVnpQthpnqoP3kpGTXnMtc-6fdC5jQbYbZa9oswktQ-nPjRKGpIdUhDpXNKVeDsjrNE7InN7FOlHHLJxLItm9Zoqmuf2PvTepl1CE"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:11.330845",
+    "has_comments": true,
+    "response_size": 284021,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE3MTYxNzU2NDk1MTU0Nzk=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Võ Ngoc Anh', 'id': '61575418385947', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/688261487_122108584244847279_3212662125139098517_n.jp"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:12.137568",
+    "has_comments": false,
+    "response_size": 12524,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61575418385947', 'name': 'Võ Ngoc Anh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61575418385947', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.fac"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:12.289120",
+    "has_comments": false,
+    "response_size": 16025,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61574507131564', 'name': 'Vu N Tuan Anh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61574507131564', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_frien"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:14.035218",
+    "has_comments": false,
+    "response_size": 13183,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61553932145095', 'name': 'Huynh Trâm Anh', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/thuy.duong.thi.hong.2024', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.faceb"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:15.765166",
+    "has_comments": true,
+    "response_size": 90604,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzIzMjgzNTg5MTEzMDM0NDc=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Thảo Thảo', 'id': '100042154821036', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:16.957202",
+    "has_comments": false,
+    "response_size": 16314,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100042154821036', 'name': 'Thảo Thảo', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100042154821036', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:18.564481",
+    "has_comments": true,
+    "response_size": 266456,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3XzE1MjcyMDk0MzkwNTcwNTU=', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Nguyễn Đình Phong', 'id': '61554441362337', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n."
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:23.082001",
+    "has_comments": true,
+    "response_size": 63137,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk5MTMzMTg2MDM1ODExNg==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Nguyễn Nguyễn', 'id': '100020703532075', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/637755633_1862211217812311_6390278149188353394_n.j"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:26.977972",
+    "has_comments": true,
+    "response_size": 280751,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'comment_rendering_instance_for_feed_location': {'comments': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk5OTA5MjI1MjgxODQ1Mw==', 'feedback': {'id': 'ZmVlZGJhY2s6MTQ0NDg5ODIyNDM0OTE4N185OTkwOTIyNTI4MTg0NTM=', 'expansion_info': {'expansion_token': 'MjoxNzgxODA0NDc0OgF_1H4fRdrXXFaE2xYy_C8xIa4xFKYoxf7EauoOA05WrVPRHtvSGX5dmhxSlHfjkL-FOZFqbjTEGg5h9yi7GfPDbGSL9ZJ9i8Skne8Gf740"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:28.310110",
+    "has_comments": true,
+    "response_size": 178242,
+    "response_preview": "{'data': {'node': {'__typename': 'Feedback', 'replies_connection': {'is_not_behind_the_fold': None, 'behind_the_fold_subtext': None, 'edges': [{'node': {'id': 'Y29tbWVudDoxNDQ0ODk4MjI0MzQ5MTg3Xzk4NjI0ODk5NDMxMzM0NQ==', 'is_subreply_parent_deleted': False, 'author': {'__typename': 'User', '__isActor': 'User', 'name': 'Trà Chanh Vị Đắng', 'id': '100093638269589', 'profile_picture_depth_0': {'uri': 'https://scontent.fsgn21-1.fna.fbcdn.net/v/t39.30808-1/650187916_815384421592826_5424202252521057053_"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:29.049458",
+    "has_comments": false,
+    "response_size": 15648,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100093638269589', 'name': 'Trà Chanh Vị Đắng', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100093638269589', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:29.552229",
+    "has_comments": false,
+    "response_size": 13167,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '61576750192828', 'name': 'Luis Keye Vy My', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=61576750192828', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:30.076888",
+    "has_comments": false,
+    "response_size": 12244,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100088247983120', 'name': 'Thanh Vu', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/profile.php?id=100088247983120', '__typename': 'User', 'story_bucket': {'nodes': []}, 'url': 'https://www.face"
+  },
+  {
+    "url": "https://www.facebook.com/api/graphql/",
+    "timestamp": "2026-06-19T00:41:30.364641",
+    "has_comments": false,
+    "response_size": 14851,
+    "response_preview": "{'data': {'node': {'__typename': 'User', '__isEntity': 'User', '__isCometHovercard': 'User', 'comet_hovercard_renderer': {'__typename': 'CometHovercardUserRenderer', 'user': {'id': '100014858972811', 'name': 'Kim Tuyen', 'username_for_profile': None, 'is_verified': False, 'is_visibly_memorialized': False, '__isActor': 'User', '__isEntity': 'User', 'profile_url': 'https://www.facebook.com/kim.tuyen.35380', '__typename': 'User', 'story_bucket': {'nodes': [{'should_show_close_friend_badge': False, "
+  }
+]
