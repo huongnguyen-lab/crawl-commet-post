@@ -186,37 +186,25 @@ def make_handler(current_parent_ref, seen):
 
 
 def switch_to_all_comments(page):
-    sort_labels = [
-        "Most Relevant",
-        "Xếp theo mức độ liên quan",
-        "Relevant",
-    ]
-    all_labels = [
-        "All Comments",
-        "Tất cả bình luận",
-        "All comments",
-    ]
-
-    for label in sort_labels:
-        try:
-            btn = page.get_by_text(label, exact=False).first
-            if btn.is_visible(timeout=2000):
-                btn.click(timeout=3000)
+    try:
+        # Open the sort dropdown (text= does substring match, handles BOM)
+        for sel in ["text=Most relevant", "text=Newest", "text=Mới nhất",
+                    "text=Phù hợp nhất", "text=All Comments", "text=Tất cả bình luận"]:
+            btn = page.locator(sel).first
+            if btn.is_visible(timeout=800):
+                btn.click()
                 time.sleep(1.5)
                 break
-        except:
-            continue
 
-    for label in all_labels:
-        try:
-            opt = page.get_by_text(label, exact=False).first
-            if opt.is_visible(timeout=2000):
-                opt.click(timeout=3000)
-                time.sleep(3)
-                print("   Switched to All Comments")
-                return True
-        except:
-            continue
+        # Click 3rd menuitem = "All Comments" (positional, language-independent)
+        options = page.locator('[role="menuitem"]').all()
+        if len(options) >= 3:
+            options[2].click()
+            time.sleep(2.5)
+            print("   Switched to All Comments")
+            return True
+    except:
+        pass
 
     print("   WARNING: could not switch to All Comments")
     return False
