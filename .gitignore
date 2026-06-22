@@ -5,3 +5,15 @@ __pycache__/
 .DS_Store
 profiles/
 .claude/
+
+# Browser profile (session data, large binaries)
+data/browser-profile/
+debug/playwright-profile/
+
+# Output & state files
+*.csv
+seen_graphql_ids.txt
+prudential_8_big_threads_seen_ids.txt
+
+# Debug artifacts
+debug_dtsg_failed.html
